@@ -11,7 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-##This takes the global variable matrix, x, and calculates the inverse. If y is null, it will solve and print, solving first time, else it will print getting cached value.
+## This takes the global variable matrix, x, and calculates the inverse. If y is null, it will solve and print, solving first time, else it will print getting cached value.
 
 cacheSolve <- function(x, ...) {
          if (!is.null(y)) { 
